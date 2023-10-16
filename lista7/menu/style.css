@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+    gap: 36px;
+}
+h1{
+    color: darkgreen;
+}
+button{
+    width: 36%;
+    margin: auto;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(33, 150, 33);
+}
