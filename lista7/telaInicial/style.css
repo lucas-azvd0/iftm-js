@@ -25,7 +25,7 @@ fieldset legend{
 #label-nome{
     font-size: 22px;
 }
-#nome{
+#txtNome{
     width: 70%;
     margin: auto;
     outline: none;
@@ -33,11 +33,12 @@ fieldset legend{
     border-bottom: 2px solid darkgreen;
     padding: 4px;
     border-radius: 2px;
+    font-size: 22px;
 }
 button{
-    width: 50%;
+    width: 32%;
     margin: auto;
-    padding: 8px;
+    padding: 12px 8px;
     outline: none;
     border: none;
     border-radius: 8px;

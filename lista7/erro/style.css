@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    font-size: 18px;
+}
+img{
+    width: 220px;
+}
+#btn-erro{
+    width: 10%;
+    margin: auto;
+    padding: 12px 8px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+#btn-erro:hover{
+    cursor: pointer;
+    background-color: rgb(33, 150, 33);
+}

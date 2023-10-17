@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+img{
+    width: 100px;
+}
+#container-gatos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+#container-gatos div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#btn-random, #nm-random{
+    width: 80%;
+    margin: auto;
+    padding: 4px;
+}
